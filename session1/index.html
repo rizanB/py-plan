@@ -311,20 +311,38 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comments
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-types" class="md-nav__link">
+  <a href="#variable" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Types
+      Variable
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Data Types">
+    <nav class="md-nav" aria-label="Variable">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#naming-conventions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Naming Conventions
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#int" class="md-nav__link">
@@ -339,6 +357,15 @@
   <a href="#float" class="md-nav__link">
     <span class="md-ellipsis">
       float
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#char" class="md-nav__link">
+    <span class="md-ellipsis">
+      char
     </span>
   </a>
   
@@ -419,6 +446,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#operators" class="md-nav__link">
     <span class="md-ellipsis">
       Operators
@@ -461,7 +497,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comments" class="md-nav__link">
+  <a href="#comments_1" class="md-nav__link">
     <span class="md-ellipsis">
       Comments
     </span>
@@ -578,20 +614,38 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comments
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-types" class="md-nav__link">
+  <a href="#variable" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Types
+      Variable
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Data Types">
+    <nav class="md-nav" aria-label="Variable">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#naming-conventions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Naming Conventions
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#int" class="md-nav__link">
@@ -606,6 +660,15 @@
   <a href="#float" class="md-nav__link">
     <span class="md-ellipsis">
       float
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#char" class="md-nav__link">
+    <span class="md-ellipsis">
+      char
     </span>
   </a>
   
@@ -686,6 +749,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#operators" class="md-nav__link">
     <span class="md-ellipsis">
       Operators
@@ -728,7 +800,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comments" class="md-nav__link">
+  <a href="#comments_1" class="md-nav__link">
     <span class="md-ellipsis">
       Comments
     </span>
@@ -757,30 +829,85 @@
 <img alt="download page" src="../assets/download_python.png" /></p>
 <h2 id="hello-world">hello world!</h2>
 <pre><code>print('hello world')
+
 &gt;&gt;&gt; hello world
 </code></pre>
 <h2 id="python-compiler-ide">Python Compiler &amp; IDE</h2>
 <h3 id="jupyter-notebook-anaconda">Jupyter Notebook &amp; Anaconda</h3>
 <p>Visit </p>
 <h3 id="google-colab">Google Colab</h3>
+<p>Google Colab is a cloud-based notebook service for running heavy computations like bioinformatics tasks. Also great for data analysis, machine learning &amp; visualizations.</p>
 <h3 id="vs-code-pycharm-spyder">VS Code/ PyCharm/ Spyder</h3>
-<p>Comments</p>
-<h2 id="data-types">Data Types</h2>
+<p>These support Python development with features like syntax highlighting, formatting, debugging, code auto-completion, package management &amp; more.</p>
+<h3 id="comments">Comments</h3>
+<p>We use comments to help others understand our code better. We also forget what we wrote a month/year ago, so comments help us remember why we did something.</p>
+<pre><code># takes text files and converts them to pdf
+
+Python code here....
+</code></pre>
+<h2 id="variable">Variable</h2>
+<p>Variables hold data. Assignment is done right-to-left with assignment '=' operator.</p>
+<pre><code>my_num = 2 #stores 2 in my_num
+print(my_num)
+
+&gt;&gt;&gt; 2
+</code></pre>
+<p>Variables can hold many types of data.</p>
+<pre><code>my_class= &quot;python programming&quot;
+
+brca1_sequence = &quot;ATGGAGGAGGAGAGGAAGGAAGGAGAGGAGAGGAGGAAGGAAGGAAGGAGAGGAAGGAGGAGGAAGGAGGAAGGAGGAGGAGGAAGGAAGGAAGGAGGAGGAAGGAAGGAAGGAGAGGAAGGAAGGAAGGAGAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAGGAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGAAGGA&quot; #incomplete sequence
+
+forward_primer = &quot;AGCTGATCGTACGATAGC&quot;
+
+reverse_primer = &quot;TGCATGCTAGCTAGCTAG&quot;
+
+melting_temp = 60.57
+
+is_successful = True
+</code></pre>
+<h3 id="naming-conventions">Naming Conventions</h3>
+<p>We use lowercase and underscores to name variables in Python. </p>
+<pre><code>human_seq, current_date, user_name, drosophila_genome, genes_from_sequencing
+</code></pre>
+<p>Detailed style guide at: https://peps.python.org/pep-0008/</p>
 <h3 id="int">int</h3>
+<p>Integers are whole numbers.</p>
+<pre><code>my_num = 27
+</code></pre>
 <h3 id="float">float</h3>
+<p>Floats represent real numbers (numbers with a decimal point).</p>
+<pre><code>temperature = 37.5  # Temperature in Celsius
+</code></pre>
+<h3 id="char">char</h3>
+<p>Character refers to a single character.</p>
+<pre><code>first_letter_in_alphabet = 'a'
+</code></pre>
 <h3 id="string">string</h3>
+<p>Strings are sequences of characters. They are enclosed in quotes.</p>
+<pre><code>sequence1 = 'ATGCGTAC'  # DNA sequence
+sequence2 = &quot;CATGTCGA&quot;  # DNA sequence
+user_name = 'pramod aryal, phd.'  #Username
+</code></pre>
 <h3 id="bool">bool</h3>
+<p>Booleans represent True or False values, useful in logical operations. Booleans are written without quotes.</p>
+<pre><code>seq_is_valid = True  #sequence is valid
+file_exists = True  #file exists
+</code></pre>
 <h2 id="storing-data">Storing data</h2>
 <h3 id="list">list</h3>
 <h3 id="dict">dict</h3>
 <h3 id="set">set</h3>
 <h3 id="tuple">tuple</h3>
+<h2 id="best-practices">Best Practices</h2>
+<p>Names should be meaningful</p>
 <h2 id="operators">Operators</h2>
 <h3 id="arithmetic">Arithmetic</h3>
 <h3 id="relational">Relational</h3>
 <h3 id="logical">Logical</h3>
-<h2 id="comments">Comments</h2>
+<h2 id="comments_1">Comments</h2>
 <p>white space. Comment types, docstrings, formatting</p>
+<p>Resources
+PEP8 | Style Guide for Python https://peps.python.org/pep-0008/</p>
 
 
 
