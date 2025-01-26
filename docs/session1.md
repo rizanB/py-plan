@@ -1,21 +1,29 @@
 # I. Python Programming Concepts.
 
-## Introduction to Python
+## Installing
 
-## Hello world!
-Installing python
+Visit python.org/downloads and download the latest release for your OS.
+![download page](./assets/download_python.png)
+
+
+## hello world!
 
 ```
 print('hello world')
+>>> hello world
 ```
 
-### Python Compiler
+## Python Compiler & IDE
 
-### Installing IDE
-
-### Jupyter Notebook
+### Jupyter Notebook & Anaconda
+Visit 
 
 ### Google Colab
+
+### VS Code/ PyCharm/ Spyder
+
+Comments
+
 
 ## Data Types
 ### int
@@ -46,4 +54,4 @@ print('hello world')
 
 ## Comments
 
-Comments and white space. 	Comments, docstrings, formatting
+white space. Comment types, docstrings, formatting
